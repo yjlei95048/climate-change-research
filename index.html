@@ -7,28 +7,42 @@
   <style>
   body {
     font-family: "Noto Serif TC", "Times New Roman", serif;
-    font-size: 18px;          /* ★ 全站字體放大 */
-    line-height: 1.8;         /* ★ 行距更適合長文閱讀 */
+    font-size: 18px;
+    line-height: 1.8;
     margin: 40px;
     background-color: #ffffff;
     color: #222;
   }
 
   h1 {
-    font-size: 32px;          /* ★ 主標更有份量 */
-    margin-bottom: 2px;
+    font-size: 32px;
+    margin-bottom: 2px;      /* 中英貼近（2k） */
+  }
+
+  .subtitle {
+    margin-top: 0;           /* 消除預設上邊際 */
+    padding-top: 0;
+
+    font-family: "Times New Roman", serif;
+    font-size: 18px;
+    font-style: italic;
+    letter-spacing: 0.3px;
+
+    margin-bottom: 26px;     /* 與正文拉開（6） */
+    color: #333;
   }
 
   h2 {
-    font-size: 22px;          /* ★ 次標稍微放大 */
-    margin-top: 0;         /* ★ 與上文拉開距離 */
+    font-size: 22px;
+    margin-top: 48px;
+    margin-bottom: 12px;
     border-bottom: 1px solid #ccc;
-    padding-bottom: 24px;
+    padding-bottom: 8px;
   }
 
   p {
-    max-width: 1200px;        /* ★ 不容易被強迫換行 */
-    margin-bottom: 18px;     /* ★ 段落之間更好讀 */
+    max-width: 1200px;
+    margin-bottom: 18px;
   }
 
   table {
@@ -40,7 +54,7 @@
 
   th, td {
     border: 1px solid #999;
-    padding: 10px 14px;       /* ★ 表格不擠，眼睛不累 */
+    padding: 10px 14px;
     vertical-align: top;
   }
 
@@ -59,7 +73,7 @@
 
   footer {
     margin-top: 72px;
-    font-size: 15px;          /* ★ 頁尾稍微大一點 */
+    font-size: 15px;
     color: #555;
     max-width: 1200px;
   }
@@ -69,7 +83,9 @@
 <body>
 
 <h1>臺東縣氣候變遷學術研究公開入口平台</h1>
-<p><em>Taitung County Climate Change Academic Research Portal</em></p>
+<div class="subtitle">
+  Taitung County Climate Change Academic Research Portal
+</div>
 
 <p>
 本網站為「臺東縣氣候變遷研究公開入口平台」，
